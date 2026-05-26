@@ -15,7 +15,7 @@
   <circle cx="600" cy="232" r="172" fill="none" stroke="#dad7cf" stroke-dasharray="3 9"/>
     <circle cx="600" cy="232" r="112" fill="none" stroke="#dad7cf" stroke-dasharray="3 9"/>
     <g transform="translate(600.0 232.0)">
-      <circle r="150.9" fill="#111111" opacity="0.96"/>
+      <circle r="150.8" fill="#111111" opacity="0.96"/>
       <text y="-3" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700" font-family="Inter, ui-sans-serif">TypeScript</text>
       <text y="16" text-anchor="middle" fill="#ffffff" opacity="0.82" font-size="11" font-family="Inter, ui-sans-serif">86.2%</text>
     </g><g transform="translate(668.0 114.2)">
@@ -23,9 +23,9 @@
       <text y="-3" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700" font-family="Inter, ui-sans-serif">Python</text>
       <text y="16" text-anchor="middle" fill="#ffffff" opacity="0.82" font-size="11" font-family="Inter, ui-sans-serif">7.9%</text>
     </g><g transform="translate(747.2 147.0)">
-      <circle r="50.6" fill="#b9a77b" opacity="0.78"/>
+      <circle r="50.8" fill="#b9a77b" opacity="0.78"/>
       <text y="-3" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="700" font-family="Inter, ui-sans-serif">JavaScript</text>
-      <text y="16" text-anchor="middle" fill="#ffffff" opacity="0.82" font-size="11" font-family="Inter, ui-sans-serif">2.1%</text>
+      <text y="16" text-anchor="middle" fill="#ffffff" opacity="0.82" font-size="11" font-family="Inter, ui-sans-serif">2.2%</text>
     </g><g transform="translate(702.0 232.0)">
       <circle r="48.5" fill="#496b9c" opacity="0.78"/>
       <text y="-3" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700" font-family="Inter, ui-sans-serif">CSS</text>
@@ -55,12 +55,12 @@
       <text y="-3" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="700" font-family="Inter, ui-sans-serif">Go</text>
       <text y="16" text-anchor="middle" fill="#ffffff" opacity="0.82" font-size="11" font-family="Inter, ui-sans-serif">0.0%</text>
     </g><g transform="translate(482.2 164.0)">
-      <circle r="33.7" fill="#b9a77b" opacity="0.78"/>
-      <text y="-3" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="700" font-family="Inter, ui-sans-serif">Dockerfile</text>
+      <circle r="34.5" fill="#b9a77b" opacity="0.78"/>
+      <text y="-3" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="700" font-family="Inter, ui-sans-serif">Swift</text>
       <text y="16" text-anchor="middle" fill="#ffffff" opacity="0.82" font-size="11" font-family="Inter, ui-sans-serif">0.0%</text>
     </g><g transform="translate(515.0 84.8)">
-      <circle r="33.5" fill="#496b9c" opacity="0.78"/>
-      <text y="-3" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="700" font-family="Inter, ui-sans-serif">MDX</text>
+      <circle r="33.7" fill="#496b9c" opacity="0.78"/>
+      <text y="-3" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="700" font-family="Inter, ui-sans-serif">Dockerfile</text>
       <text y="16" text-anchor="middle" fill="#ffffff" opacity="0.82" font-size="11" font-family="Inter, ui-sans-serif">0.0%</text>
     </g>
 </svg>
