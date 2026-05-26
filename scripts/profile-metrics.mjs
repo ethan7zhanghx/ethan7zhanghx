@@ -5,6 +5,7 @@ const USERNAME = process.env.PROFILE_USERNAME || process.env.GITHUB_REPOSITORY_O
 const TOKEN = process.env.PROFILE_STATS_TOKEN || process.env.GITHUB_TOKEN;
 const OUTPUT_DIR = process.env.PROFILE_OUTPUT_DIR || "assets/profile";
 const INCLUDE_REPO_NAMES = process.env.PROFILE_INCLUDE_REPO_NAMES === "true";
+const PROFILE_TIME_ZONE = process.env.PROFILE_TIME_ZONE || "Asia/Shanghai";
 const DAYS = 371;
 
 if (!USERNAME) {
@@ -45,6 +46,23 @@ function escapeXml(value) {
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;");
+}
+
+function zonedParts(date, timeZone = PROFILE_TIME_ZONE) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    weekday: "short",
+    hour: "2-digit",
+    hour12: false
+  }).formatToParts(date);
+
+  const weekdayText = parts.find((part) => part.type === "weekday")?.value || "Sun";
+  const hourText = parts.find((part) => part.type === "hour")?.value || "0";
+  const weekday = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].indexOf(weekdayText);
+  return {
+    weekday: weekday >= 0 ? weekday : 0,
+    hour: Number(hourText) % 24
+  };
 }
 
 function number(value) {
@@ -192,8 +210,7 @@ async function loadRepositorySignals(repos) {
         const dateText = commit.commit?.author?.date || commit.commit?.committer?.date;
         if (!dateText) continue;
         const date = new Date(dateText);
-        const weekday = date.getUTCDay();
-        const hour = date.getUTCHours();
+        const { weekday, hour } = zonedParts(date);
         const dateKey = isoDate(date);
         dailyCommits.set(dateKey, (dailyCommits.get(dateKey) || 0) + 1);
         hourly[weekday][hour] += 1;
@@ -483,7 +500,7 @@ function renderWorkRhythm(hourly) {
           const x = startX + hour * (cellW + 4);
           const y = startY + day * (cellH + 5);
           const opacity = 0.1 + (count / max) * 0.9;
-          return `<rect x="${x}" y="${y}" width="${cellW}" height="${cellH}" rx="6" fill="${palette.ink}" opacity="${opacity.toFixed(2)}"><title>${weekdays[day]} ${String(hour).padStart(2, "0")}:00 UTC: ${count}</title></rect>`;
+          return `<rect x="${x}" y="${y}" width="${cellW}" height="${cellH}" rx="6" fill="${palette.ink}" opacity="${opacity.toFixed(2)}"><title>${weekdays[day]} ${String(hour).padStart(2, "0")}:00 ${PROFILE_TIME_ZONE}: ${count}</title></rect>`;
         })
         .join("")
     )
@@ -497,7 +514,7 @@ function renderWorkRhythm(hourly) {
     .map((hour) => `<text x="${startX + hour * (cellW + 4)}" y="108" fill="${palette.muted}" font-size="11" font-family="Inter, ui-sans-serif">${String(hour).padStart(2, "0")}</text>`)
     .join("");
 
-  return svgFrame(width, height, "WORK RHYTHM", "COMMIT TIME DISTRIBUTION FROM ACCESSIBLE REPOSITORIES, UTC", `${labels}${hours}${cells}`);
+  return svgFrame(width, height, "WORK RHYTHM", `COMMIT TIME DISTRIBUTION FROM ACCESSIBLE REPOSITORIES, ${PROFILE_TIME_ZONE}`, `${labels}${hours}${cells}`);
 }
 
 function renderLanguageOrbit(languages) {
@@ -546,6 +563,7 @@ async function main() {
     longestStreak: streak.longest,
     accessibleRepositories: repos.length,
     sampledCommits: signals.sampledCommits,
+    timeZone: PROFILE_TIME_ZONE,
     languages: signals.languages,
     repositories: INCLUDE_REPO_NAMES
       ? repos.map((repo) => ({ name: repo.name, private: repo.private, fork: repo.fork, stars: repo.stars, forks: repo.forks }))

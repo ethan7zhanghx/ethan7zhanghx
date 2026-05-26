@@ -48,4 +48,5 @@ Environment variables:
 
 - `PROFILE_USERNAME`: GitHub username to render.
 - `PROFILE_OUTPUT_DIR`: output directory, defaults to `assets/profile`.
+- `PROFILE_TIME_ZONE`: time zone for the work rhythm chart, defaults to `Asia/Shanghai`.
 - `PROFILE_INCLUDE_REPO_NAMES`: set to `true` only if you intentionally want public/private repo names in `metrics.json`.
