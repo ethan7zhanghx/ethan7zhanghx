@@ -1,17 +1,14 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/stats-strip.svg">
-  <img alt="Private-aware GitHub activity summary" src="./assets/profile/stats-strip.svg" width="100%">
-</picture>
+<img alt="Private-aware GitHub activity summary" src="https://raw.githubusercontent.com/ethan7zhanghx/ethan7zhanghx/main/assets/profile/stats-strip.svg" width="100%">
 
-<img alt="3D contribution skyline" src="./assets/profile/contribution-skyline.svg" width="100%">
+<img alt="3D contribution skyline" src="https://raw.githubusercontent.com/ethan7zhanghx/ethan7zhanghx/main/assets/profile/contribution-skyline.svg" width="100%">
 
-<img alt="Minimal contribution heatmap" src="./assets/profile/contribution-heatmap.svg" width="100%">
+<img alt="Minimal contribution heatmap" src="https://raw.githubusercontent.com/ethan7zhanghx/ethan7zhanghx/main/assets/profile/contribution-heatmap.svg" width="100%">
 
-<img alt="Weekly work rhythm" src="./assets/profile/work-rhythm.svg" width="100%">
+<img alt="Weekly work rhythm" src="https://raw.githubusercontent.com/ethan7zhanghx/ethan7zhanghx/main/assets/profile/work-rhythm.svg" width="100%">
 
-<img alt="Language orbit" src="./assets/profile/language-orbit.svg" width="100%">
+<img alt="Language orbit" src="https://raw.githubusercontent.com/ethan7zhanghx/ethan7zhanghx/main/assets/profile/language-orbit.svg" width="100%">
 
 </div>
 
