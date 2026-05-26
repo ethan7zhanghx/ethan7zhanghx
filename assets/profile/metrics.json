@@ -1,0 +1,69 @@
+{
+  "username": "ethan7zhanghx",
+  "updatedAt": "2026-05-26T03:54:41.343Z",
+  "range": {
+    "from": "2025-05-21",
+    "to": "2026-05-26"
+  },
+  "totalContributions": 653,
+  "totalCommitContributions": 526,
+  "totalIssueContributions": 7,
+  "totalPullRequestContributions": 51,
+  "totalPullRequestReviewContributions": 53,
+  "restrictedContributionsCount": 0,
+  "commitActiveDays": 76,
+  "currentStreak": 1,
+  "longestStreak": 12,
+  "accessibleRepositories": 20,
+  "sampledCommits": 566,
+  "languages": [
+    {
+      "name": "TypeScript",
+      "bytes": 33426885
+    },
+    {
+      "name": "Python",
+      "bytes": 3062113
+    },
+    {
+      "name": "JavaScript",
+      "bytes": 816070
+    },
+    {
+      "name": "CSS",
+      "bytes": 645223
+    },
+    {
+      "name": "HTML",
+      "bytes": 333927
+    },
+    {
+      "name": "Jupyter Notebook",
+      "bytes": 328667
+    },
+    {
+      "name": "Shell",
+      "bytes": 71468
+    },
+    {
+      "name": "PLpgSQL",
+      "bytes": 32631
+    },
+    {
+      "name": "TeX",
+      "bytes": 16112
+    },
+    {
+      "name": "Go",
+      "bytes": 15634
+    },
+    {
+      "name": "Dockerfile",
+      "bytes": 6602
+    },
+    {
+      "name": "MDX",
+      "bytes": 5071
+    }
+  ]
+}

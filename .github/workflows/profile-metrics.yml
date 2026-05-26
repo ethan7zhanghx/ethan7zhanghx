@@ -1,0 +1,42 @@
+name: Profile metrics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+  push:
+    paths:
+      - "scripts/profile-metrics.mjs"
+      - ".github/workflows/profile-metrics.yml"
+      - "README.md"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate profile components
+        env:
+          PROFILE_USERNAME: ${{ github.repository_owner }}
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/profile-metrics.mjs
+
+      - name: Commit generated assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/profile README.md
+          git diff --cached --quiet || git commit -m "Update profile metrics"
+          git push

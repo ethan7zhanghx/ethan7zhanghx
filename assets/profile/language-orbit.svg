@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-label="LANGUAGE ORBIT">
+  <defs>
+    <linearGradient id="paper" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f5f3ed"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.09"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="390" rx="0" fill="url(#paper)"/>
+  <rect x="24" y="24" width="1152" height="342" rx="18" fill="none" stroke="#dad7cf"/>
+  <text x="48" y="64" fill="#111111" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="23" font-weight="650">LANGUAGE ORBIT</text>
+  <text x="48" y="91" fill="#696969" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" letter-spacing="1.8">AGGREGATED LANGUAGE BYTES FROM ACCESSIBLE REPOSITORIES</text>
+  <circle cx="600" cy="232" r="172" fill="none" stroke="#dad7cf" stroke-dasharray="3 9"/>
+    <circle cx="600" cy="232" r="112" fill="none" stroke="#dad7cf" stroke-dasharray="3 9"/>
+    <g transform="translate(600.0 232.0)">
+      <circle r="150.9" fill="#111111" opacity="0.96"/>
+      <text y="-3" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700" font-family="Inter, ui-sans-serif">TypeScript</text>
+      <text y="16" text-anchor="middle" fill="#ffffff" opacity="0.82" font-size="11" font-family="Inter, ui-sans-serif">86.2%</text>
+    </g><g transform="translate(668.0 114.2)">
+      <circle r="68.0" fill="#557c83" opacity="0.78"/>
+      <text y="-3" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700" font-family="Inter, ui-sans-serif">Python</text>
+      <text y="16" text-anchor="middle" fill="#ffffff" opacity="0.82" font-size="11" font-family="Inter, ui-sans-serif">7.9%</text>
+    </g><g transform="translate(747.2 147.0)">
+      <circle r="50.6" fill="#b9a77b" opacity="0.78"/>
+      <text y="-3" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="700" font-family="Inter, ui-sans-serif">JavaScript</text>
+      <text y="16" text-anchor="middle" fill="#ffffff" opacity="0.82" font-size="11" font-family="Inter, ui-sans-serif">2.1%</text>
+    </g><g transform="translate(702.0 232.0)">
+      <circle r="48.5" fill="#496b9c" opacity="0.78"/>
+      <text y="-3" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700" font-family="Inter, ui-sans-serif">CSS</text>
+      <text y="16" text-anchor="middle" fill="#ffffff" opacity="0.82" font-size="11" font-family="Inter, ui-sans-serif">1.7%</text>
+    </g><g transform="translate(717.8 300.0)">
+      <circle r="43.9" fill="#6f8f72" opacity="0.78"/>
+      <text y="-3" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="700" font-family="Inter, ui-sans-serif">HTML</text>
+      <text y="16" text-anchor="middle" fill="#ffffff" opacity="0.82" font-size="11" font-family="Inter, ui-sans-serif">0.9%</text>
+    </g><g transform="translate(685.0 379.2)">
+      <circle r="43.8" fill="#b56d72" opacity="0.78"/>
+      <text y="-3" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="700" font-family="Inter, ui-sans-serif">Jupyter Notebook</text>
+      <text y="16" text-anchor="middle" fill="#ffffff" opacity="0.82" font-size="11" font-family="Inter, ui-sans-serif">0.8%</text>
+    </g><g transform="translate(600.0 334.0)">
+      <circle r="37.5" fill="#8f8a83" opacity="0.78"/>
+      <text y="-3" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="700" font-family="Inter, ui-sans-serif">Shell</text>
+      <text y="16" text-anchor="middle" fill="#ffffff" opacity="0.82" font-size="11" font-family="Inter, ui-sans-serif">0.2%</text>
+    </g><g transform="translate(532.0 349.8)">
+      <circle r="35.7" fill="#c2b48d" opacity="0.78"/>
+      <text y="-3" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="700" font-family="Inter, ui-sans-serif">PLpgSQL</text>
+      <text y="16" text-anchor="middle" fill="#ffffff" opacity="0.82" font-size="11" font-family="Inter, ui-sans-serif">0.1%</text>
+    </g><g transform="translate(452.8 317.0)">
+      <circle r="34.6" fill="#111111" opacity="0.78"/>
+      <text y="-3" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="700" font-family="Inter, ui-sans-serif">TeX</text>
+      <text y="16" text-anchor="middle" fill="#ffffff" opacity="0.82" font-size="11" font-family="Inter, ui-sans-serif">0.0%</text>
+    </g><g transform="translate(498.0 232.0)">
+      <circle r="34.6" fill="#557c83" opacity="0.78"/>
+      <text y="-3" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="700" font-family="Inter, ui-sans-serif">Go</text>
+      <text y="16" text-anchor="middle" fill="#ffffff" opacity="0.82" font-size="11" font-family="Inter, ui-sans-serif">0.0%</text>
+    </g><g transform="translate(482.2 164.0)">
+      <circle r="33.7" fill="#b9a77b" opacity="0.78"/>
+      <text y="-3" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="700" font-family="Inter, ui-sans-serif">Dockerfile</text>
+      <text y="16" text-anchor="middle" fill="#ffffff" opacity="0.82" font-size="11" font-family="Inter, ui-sans-serif">0.0%</text>
+    </g><g transform="translate(515.0 84.8)">
+      <circle r="33.5" fill="#496b9c" opacity="0.78"/>
+      <text y="-3" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="700" font-family="Inter, ui-sans-serif">MDX</text>
+      <text y="16" text-anchor="middle" fill="#ffffff" opacity="0.82" font-size="11" font-family="Inter, ui-sans-serif">0.0%</text>
+    </g>
+</svg>

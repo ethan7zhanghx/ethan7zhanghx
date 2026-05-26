@@ -1,0 +1,12 @@
+{
+  "name": "profile-metrics-wall",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/profile-metrics.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
