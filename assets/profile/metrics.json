@@ -1,6 +1,6 @@
 {
   "username": "ethan7zhanghx",
-  "updatedAt": "2026-05-26T06:32:32.412Z",
+  "updatedAt": "2026-05-26T06:35:17.971Z",
   "range": {
     "from": "2025-05-21",
     "to": "2026-05-26"
@@ -15,7 +15,7 @@
   "currentStreak": 1,
   "longestStreak": 12,
   "accessibleRepositories": 21,
-  "sampledCommits": 570,
+  "sampledCommits": 572,
   "languages": [
     {
       "name": "TypeScript",
@@ -23,7 +23,7 @@
     },
     {
       "name": "Python",
-      "bytes": 3062113
+      "bytes": 3064411
     },
     {
       "name": "JavaScript",
@@ -46,6 +46,10 @@
       "bytes": 71633
     },
     {
+      "name": "Swift",
+      "bytes": 36296
+    },
+    {
       "name": "PLpgSQL",
       "bytes": 32631
     },
@@ -56,10 +60,6 @@
     {
       "name": "Go",
       "bytes": 15634
-    },
-    {
-      "name": "Swift",
-      "bytes": 15395
     },
     {
       "name": "Dockerfile",

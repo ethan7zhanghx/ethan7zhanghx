@@ -307,7 +307,7 @@ function renderStatsStrip(metrics) {
     ["commits", metrics.totalCommitContributions],
     ["commit days", metrics.commitActiveDays],
     ["longest streak", metrics.longestStreak],
-    ["private", metrics.restrictedContributionsCount],
+    ["sampled", metrics.sampledCommits],
     ["prs/issues", metrics.totalPullRequestContributions + metrics.totalIssueContributions],
     ["reviews", metrics.totalPullRequestReviewContributions]
   ];
@@ -336,7 +336,7 @@ function renderStatsStrip(metrics) {
 
 function renderHeatmap(days) {
   const width = 1200;
-  const height = 260;
+  const height = 292;
   const max = maxCount(days);
   const cell = 14;
   const gap = 4;
@@ -365,9 +365,9 @@ function renderHeatmap(days) {
     .join("");
 
   const body = `${months}${cells}
-    <text x="78" y="238" fill="${palette.muted}" font-size="12" font-family="Inter, ui-sans-serif">less</text>
-    ${[0, 1, 2, 3, 4, 5].map((v) => `<rect x="${118 + v * 19}" y="226" width="14" height="14" rx="3" fill="${contributionColor(v, 5)}"/>`).join("")}
-    <text x="244" y="238" fill="${palette.muted}" font-size="12" font-family="Inter, ui-sans-serif">more</text>`;
+    <text x="78" y="258" fill="${palette.muted}" font-size="12" font-family="Inter, ui-sans-serif">less</text>
+    ${[0, 1, 2, 3, 4, 5].map((v) => `<rect x="${118 + v * 19}" y="246" width="14" height="14" rx="3" fill="${contributionColor(v, 5)}"/>`).join("")}
+    <text x="244" y="258" fill="${palette.muted}" font-size="12" font-family="Inter, ui-sans-serif">more</text>`;
 
   return svgFrame(width, height, "PRIVATE-AWARE COMMIT HEATMAP", "ACCESSIBLE PRIVATE COMMITS ARE AGGREGATED, NOT IDENTIFIED", body);
 }
@@ -402,7 +402,7 @@ function renderSkyline(days) {
 
   const body = `<line x1="68" y1="${baseY + 4}" x2="1132" y2="${baseY + 4}" stroke="${palette.line}"/>
     <g filter="url(#softShadow)">${bars}</g>
-    <text x="78" y="390" fill="${palette.muted}" font-size="12" font-family="Inter, ui-sans-serif">365-day contribution skyline / higher towers mean denser days</text>`;
+    <text x="78" y="390" fill="${palette.muted}" font-size="12" font-family="Inter, ui-sans-serif">365-day commit skyline / higher towers mean denser days</text>`;
 
   return svgFrame(width, height, "3D COMMIT SKYLINE", "DAILY COMMIT DENSITY AS A DATA CITY", body);
 }
@@ -502,30 +502,24 @@ function renderWorkRhythm(hourly) {
 
 function renderLanguageOrbit(languages) {
   const width = 1200;
-  const height = 390;
+  const height = 430;
   const total = Math.max(1, languages.reduce((sum, language) => sum + language.bytes, 0));
-  const colors = [palette.ink, palette.cool, palette.warm, palette.blue, palette.green, palette.rose, "#8f8a83", "#c2b48d"];
-  const cx = 600;
-  const cy = 232;
-  const bubbles = languages.map((language, index) => {
-    const angle = (index / Math.max(1, languages.length)) * Math.PI * 2 - Math.PI / 2;
-    const radius = index === 0 ? 0 : 102 + (index % 3) * 34;
-    const x = cx + Math.cos(angle) * radius;
-    const y = cy + Math.sin(angle) * radius;
-    const size = 32 + Math.sqrt(language.bytes / total) * 128;
-    const percent = ((language.bytes / total) * 100).toFixed(1);
-    return `<g transform="translate(${x.toFixed(1)} ${y.toFixed(1)})">
-      <circle r="${size.toFixed(1)}" fill="${colors[index % colors.length]}" opacity="${index === 0 ? 0.96 : 0.78}"/>
-      <text y="-3" text-anchor="middle" fill="#ffffff" font-size="${Math.max(11, Math.min(18, size / 4)).toFixed(0)}" font-weight="700" font-family="Inter, ui-sans-serif">${escapeXml(language.name)}</text>
-      <text y="16" text-anchor="middle" fill="#ffffff" opacity="0.82" font-size="11" font-family="Inter, ui-sans-serif">${percent}%</text>
+  const colors = [palette.ink, palette.cool, palette.warm, palette.blue, palette.green, palette.rose, "#8f8a83", "#c2b48d", "#9a9a9a", "#6d756e", "#b5afa3", "#454545"];
+  const rows = languages.slice(0, 10).map((language, index) => {
+    const percent = (language.bytes / total) * 100;
+    const y = 116 + index * 27;
+    const barWidth = Math.max(6, (percent / 100) * 790);
+    return `<g transform="translate(78 ${y})">
+      <text x="0" y="15" fill="${palette.ink}" font-size="13" font-weight="650" font-family="Inter, ui-sans-serif">${escapeXml(language.name)}</text>
+      <rect x="210" y="2" width="790" height="16" rx="8" fill="#eeeae1"/>
+      <rect x="210" y="2" width="${barWidth.toFixed(1)}" height="16" rx="8" fill="${colors[index % colors.length]}"/>
+      <text x="1025" y="15" fill="${palette.muted}" font-size="12" font-family="Inter, ui-sans-serif" text-anchor="end">${percent.toFixed(1)}%</text>
     </g>`;
   }).join("");
 
-  const body = `<circle cx="${cx}" cy="${cy}" r="172" fill="none" stroke="${palette.line}" stroke-dasharray="3 9"/>
-    <circle cx="${cx}" cy="${cy}" r="112" fill="none" stroke="${palette.line}" stroke-dasharray="3 9"/>
-    ${bubbles || `<text x="${cx}" y="${cy}" text-anchor="middle" fill="${palette.muted}" font-size="16" font-family="Inter, ui-sans-serif">No language data available</text>`}`;
+  const body = rows || `<text x="600" y="220" text-anchor="middle" fill="${palette.muted}" font-size="16" font-family="Inter, ui-sans-serif">No language data available</text>`;
 
-  return svgFrame(width, height, "LANGUAGE ORBIT", "AGGREGATED LANGUAGE BYTES FROM ACCESSIBLE REPOSITORIES", body);
+  return svgFrame(width, height, "LANGUAGE SPECTRUM", "AGGREGATED LANGUAGE BYTES FROM ACCESSIBLE REPOSITORIES", body);
 }
 
 async function main() {
