@@ -25,7 +25,7 @@
     </g><g transform="translate(78 170)">
       <text x="0" y="15" fill="#111111" font-size="13" font-weight="650" font-family="Inter, ui-sans-serif">JavaScript</text>
       <rect x="210" y="2" width="790" height="16" rx="8" fill="#eeeae1"/>
-      <rect x="210" y="2" width="17.1" height="16" rx="8" fill="#b9a77b"/>
+      <rect x="210" y="2" width="17.0" height="16" rx="8" fill="#b9a77b"/>
       <text x="1025" y="15" fill="#696969" font-size="12" font-family="Inter, ui-sans-serif" text-anchor="end">2.2%</text>
     </g><g transform="translate(78 197)">
       <text x="0" y="15" fill="#111111" font-size="13" font-weight="650" font-family="Inter, ui-sans-serif">CSS</text>
