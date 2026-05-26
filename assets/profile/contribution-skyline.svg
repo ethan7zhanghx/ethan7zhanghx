@@ -1864,10 +1864,10 @@
         <path d="M 870.1 346.0 l 5 -5 v 3.0 l -5 5 z" fill="#000000" opacity="0.10"/>
         <title>2026-05-25: 0</title>
       </g><g opacity="1">
-        <rect x="860.2" y="315.6" width="11" height="26.4" rx="2" fill="#d8d0bd"/>
-        <path d="M 860.2 315.6 l 5 -5 h 11 l -5 5 z" fill="#ffffff" opacity="0.58"/>
-        <path d="M 871.2 315.6 l 5 -5 v 26.4 l -5 5 z" fill="#000000" opacity="0.10"/>
-        <title>2026-05-26: 6</title>
+        <rect x="860.2" y="312.6" width="11" height="29.4" rx="2" fill="#d8d0bd"/>
+        <path d="M 860.2 312.6 l 5 -5 h 11 l -5 5 z" fill="#ffffff" opacity="0.58"/>
+        <path d="M 871.2 312.6 l 5 -5 v 29.4 l -5 5 z" fill="#000000" opacity="0.10"/>
+        <title>2026-05-26: 7</title>
       </g></g>
     <text x="78" y="390" fill="#696969" font-size="12" font-family="Inter, ui-sans-serif">365-day contribution skyline / higher towers mean denser days</text>
 </svg>
