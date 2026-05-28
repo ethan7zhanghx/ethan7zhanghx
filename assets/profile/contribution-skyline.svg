@@ -1708,11 +1708,11 @@
         <path d="M 798.0 353.0 l 5 -5 h 11 l -5 5 z" fill="#ffffff" opacity="0.58"/>
         <path d="M 809.0 353.0 l 5 -5 v 3.0 l -5 5 z" fill="#000000" opacity="0.10"/>
         <title>2026-04-26: 0</title>
-      </g><g opacity="0.35">
-        <rect x="799.1" y="346.0" width="11" height="3.0" rx="2" fill="#efeee9"/>
-        <path d="M 799.1 346.0 l 5 -5 h 11 l -5 5 z" fill="#ffffff" opacity="0.58"/>
-        <path d="M 810.1 346.0 l 5 -5 v 3.0 l -5 5 z" fill="#000000" opacity="0.10"/>
-        <title>2026-04-27: 0</title>
+      </g><g opacity="1">
+        <rect x="799.1" y="337.9" width="11" height="11.1" rx="2" fill="#d8d0bd"/>
+        <path d="M 799.1 337.9 l 5 -5 h 11 l -5 5 z" fill="#ffffff" opacity="0.58"/>
+        <path d="M 810.1 337.9 l 5 -5 v 11.1 l -5 5 z" fill="#000000" opacity="0.10"/>
+        <title>2026-04-27: 1</title>
       </g><g opacity="1">
         <rect x="800.2" y="324.8" width="11" height="17.2" rx="2" fill="#d8d0bd"/>
         <path d="M 800.2 324.8 l 5 -5 h 11 l -5 5 z" fill="#ffffff" opacity="0.58"/>
@@ -1863,11 +1863,11 @@
         <path d="M 861.3 332.0 l 5 -5 h 11 l -5 5 z" fill="#ffffff" opacity="0.58"/>
         <path d="M 872.3 332.0 l 5 -5 v 3.0 l -5 5 z" fill="#000000" opacity="0.10"/>
         <title>2026-05-27: 0</title>
-      </g><g opacity="0.35">
-        <rect x="862.4" y="325.0" width="11" height="3.0" rx="2" fill="#efeee9"/>
-        <path d="M 862.4 325.0 l 5 -5 h 11 l -5 5 z" fill="#ffffff" opacity="0.58"/>
-        <path d="M 873.4 325.0 l 5 -5 v 3.0 l -5 5 z" fill="#000000" opacity="0.10"/>
-        <title>2026-05-28: 0</title>
+      </g><g opacity="1">
+        <rect x="862.4" y="316.9" width="11" height="11.1" rx="2" fill="#d8d0bd"/>
+        <path d="M 862.4 316.9 l 5 -5 h 11 l -5 5 z" fill="#ffffff" opacity="0.58"/>
+        <path d="M 873.4 316.9 l 5 -5 v 11.1 l -5 5 z" fill="#000000" opacity="0.10"/>
+        <title>2026-05-28: 1</title>
       </g></g>
     <text x="78" y="390" fill="#696969" font-size="12" font-family="Inter, ui-sans-serif">365-day commit skyline / higher towers mean denser days</text>
 </svg>

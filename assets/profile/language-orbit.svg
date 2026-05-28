@@ -15,22 +15,22 @@
   <g transform="translate(78 116)">
       <text x="0" y="15" fill="#111111" font-size="13" font-weight="650" font-family="Inter, ui-sans-serif">TypeScript</text>
       <rect x="210" y="2" width="790" height="16" rx="8" fill="#eeeae1"/>
-      <rect x="210" y="2" width="680.3" height="16" rx="8" fill="#111111"/>
-      <text x="1025" y="15" fill="#696969" font-size="12" font-family="Inter, ui-sans-serif" text-anchor="end">86.1%</text>
+      <rect x="210" y="2" width="680.7" height="16" rx="8" fill="#111111"/>
+      <text x="1025" y="15" fill="#696969" font-size="12" font-family="Inter, ui-sans-serif" text-anchor="end">86.2%</text>
     </g><g transform="translate(78 143)">
       <text x="0" y="15" fill="#111111" font-size="13" font-weight="650" font-family="Inter, ui-sans-serif">Python</text>
       <rect x="210" y="2" width="790" height="16" rx="8" fill="#eeeae1"/>
-      <rect x="210" y="2" width="62.4" height="16" rx="8" fill="#557c83"/>
+      <rect x="210" y="2" width="62.1" height="16" rx="8" fill="#557c83"/>
       <text x="1025" y="15" fill="#696969" font-size="12" font-family="Inter, ui-sans-serif" text-anchor="end">7.9%</text>
     </g><g transform="translate(78 170)">
       <text x="0" y="15" fill="#111111" font-size="13" font-weight="650" font-family="Inter, ui-sans-serif">JavaScript</text>
       <rect x="210" y="2" width="790" height="16" rx="8" fill="#eeeae1"/>
-      <rect x="210" y="2" width="17.1" height="16" rx="8" fill="#b9a77b"/>
+      <rect x="210" y="2" width="17.0" height="16" rx="8" fill="#b9a77b"/>
       <text x="1025" y="15" fill="#696969" font-size="12" font-family="Inter, ui-sans-serif" text-anchor="end">2.2%</text>
     </g><g transform="translate(78 197)">
       <text x="0" y="15" fill="#111111" font-size="13" font-weight="650" font-family="Inter, ui-sans-serif">CSS</text>
       <rect x="210" y="2" width="790" height="16" rx="8" fill="#eeeae1"/>
-      <rect x="210" y="2" width="13.1" height="16" rx="8" fill="#496b9c"/>
+      <rect x="210" y="2" width="13.2" height="16" rx="8" fill="#496b9c"/>
       <text x="1025" y="15" fill="#696969" font-size="12" font-family="Inter, ui-sans-serif" text-anchor="end">1.7%</text>
     </g><g transform="translate(78 224)">
       <text x="0" y="15" fill="#111111" font-size="13" font-weight="650" font-family="Inter, ui-sans-serif">HTML</text>
