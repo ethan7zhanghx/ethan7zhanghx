@@ -15,17 +15,17 @@
   <g transform="translate(78 116)">
       <text x="0" y="15" fill="#111111" font-size="13" font-weight="650" font-family="Inter, ui-sans-serif">TypeScript</text>
       <rect x="210" y="2" width="790" height="16" rx="8" fill="#eeeae1"/>
-      <rect x="210" y="2" width="680.7" height="16" rx="8" fill="#111111"/>
-      <text x="1025" y="15" fill="#696969" font-size="12" font-family="Inter, ui-sans-serif" text-anchor="end">86.2%</text>
+      <rect x="210" y="2" width="679.1" height="16" rx="8" fill="#111111"/>
+      <text x="1025" y="15" fill="#696969" font-size="12" font-family="Inter, ui-sans-serif" text-anchor="end">86.0%</text>
     </g><g transform="translate(78 143)">
       <text x="0" y="15" fill="#111111" font-size="13" font-weight="650" font-family="Inter, ui-sans-serif">Python</text>
       <rect x="210" y="2" width="790" height="16" rx="8" fill="#eeeae1"/>
-      <rect x="210" y="2" width="62.1" height="16" rx="8" fill="#557c83"/>
-      <text x="1025" y="15" fill="#696969" font-size="12" font-family="Inter, ui-sans-serif" text-anchor="end">7.9%</text>
+      <rect x="210" y="2" width="63.5" height="16" rx="8" fill="#557c83"/>
+      <text x="1025" y="15" fill="#696969" font-size="12" font-family="Inter, ui-sans-serif" text-anchor="end">8.0%</text>
     </g><g transform="translate(78 170)">
       <text x="0" y="15" fill="#111111" font-size="13" font-weight="650" font-family="Inter, ui-sans-serif">JavaScript</text>
       <rect x="210" y="2" width="790" height="16" rx="8" fill="#eeeae1"/>
-      <rect x="210" y="2" width="17.0" height="16" rx="8" fill="#b9a77b"/>
+      <rect x="210" y="2" width="17.2" height="16" rx="8" fill="#b9a77b"/>
       <text x="1025" y="15" fill="#696969" font-size="12" font-family="Inter, ui-sans-serif" text-anchor="end">2.2%</text>
     </g><g transform="translate(78 197)">
       <text x="0" y="15" fill="#111111" font-size="13" font-weight="650" font-family="Inter, ui-sans-serif">CSS</text>
@@ -35,12 +35,12 @@
     </g><g transform="translate(78 224)">
       <text x="0" y="15" fill="#111111" font-size="13" font-weight="650" font-family="Inter, ui-sans-serif">HTML</text>
       <rect x="210" y="2" width="790" height="16" rx="8" fill="#eeeae1"/>
-      <rect x="210" y="2" width="6.8" height="16" rx="8" fill="#6f8f72"/>
+      <rect x="210" y="2" width="6.7" height="16" rx="8" fill="#6f8f72"/>
       <text x="1025" y="15" fill="#696969" font-size="12" font-family="Inter, ui-sans-serif" text-anchor="end">0.9%</text>
     </g><g transform="translate(78 251)">
       <text x="0" y="15" fill="#111111" font-size="13" font-weight="650" font-family="Inter, ui-sans-serif">Jupyter Notebook</text>
       <rect x="210" y="2" width="790" height="16" rx="8" fill="#eeeae1"/>
-      <rect x="210" y="2" width="6.7" height="16" rx="8" fill="#b56d72"/>
+      <rect x="210" y="2" width="6.6" height="16" rx="8" fill="#b56d72"/>
       <text x="1025" y="15" fill="#696969" font-size="12" font-family="Inter, ui-sans-serif" text-anchor="end">0.8%</text>
     </g><g transform="translate(78 278)">
       <text x="0" y="15" fill="#111111" font-size="13" font-weight="650" font-family="Inter, ui-sans-serif">Shell</text>
