@@ -1,9 +1,9 @@
 {
   "username": "ethan7zhanghx",
-  "updatedAt": "2026-05-29T20:37:39.912Z",
+  "updatedAt": "2026-05-30T04:16:25.181Z",
   "range": {
-    "from": "2025-05-24",
-    "to": "2026-05-29"
+    "from": "2025-05-25",
+    "to": "2026-05-30"
   },
   "totalContributions": 676,
   "totalCommitContributions": 548,
@@ -12,7 +12,7 @@
   "totalPullRequestReviewContributions": 53,
   "restrictedContributionsCount": 0,
   "commitActiveDays": 80,
-  "currentStreak": 2,
+  "currentStreak": 0,
   "longestStreak": 12,
   "accessibleRepositories": 22,
   "sampledCommits": 595,
