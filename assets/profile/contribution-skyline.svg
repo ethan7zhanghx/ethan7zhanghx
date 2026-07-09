@@ -1863,11 +1863,11 @@
         <path d="M 861.3 332.0 l 5 -5 h 11 l -5 5 z" fill="#ffffff" opacity="0.58"/>
         <path d="M 872.3 332.0 l 5 -5 v 3.0 l -5 5 z" fill="#000000" opacity="0.10"/>
         <title>2026-07-08: 0</title>
-      </g><g opacity="0.35">
-        <rect x="862.4" y="325.0" width="11" height="3.0" rx="2" fill="#efeee9"/>
-        <path d="M 862.4 325.0 l 5 -5 h 11 l -5 5 z" fill="#ffffff" opacity="0.58"/>
-        <path d="M 873.4 325.0 l 5 -5 v 3.0 l -5 5 z" fill="#000000" opacity="0.10"/>
-        <title>2026-07-09: 0</title>
+      </g><g opacity="1">
+        <rect x="862.4" y="316.9" width="11" height="11.1" rx="2" fill="#d8d0bd"/>
+        <path d="M 862.4 316.9 l 5 -5 h 11 l -5 5 z" fill="#ffffff" opacity="0.58"/>
+        <path d="M 873.4 316.9 l 5 -5 v 11.1 l -5 5 z" fill="#000000" opacity="0.10"/>
+        <title>2026-07-09: 1</title>
       </g></g>
     <text x="78" y="390" fill="#696969" font-size="12" font-family="Inter, ui-sans-serif">365-day commit skyline / higher towers mean denser days</text>
 </svg>
