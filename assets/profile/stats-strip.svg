@@ -15,15 +15,15 @@
   <g transform="translate(48 105)">
         <rect width="250" height="48" rx="9" fill="#fffefa" stroke="#dad7cf"/>
         <text x="14" y="20" fill="#696969" font-size="11" font-family="Inter, ui-sans-serif, system-ui" letter-spacing="1.2">TOTAL</text>
-        <text x="14" y="40" fill="#111111" font-size="22" font-weight="700" font-family="Inter, ui-sans-serif, system-ui">682</text>
+        <text x="14" y="40" fill="#111111" font-size="22" font-weight="700" font-family="Inter, ui-sans-serif, system-ui">687</text>
       </g><g transform="translate(318 105)">
         <rect width="250" height="48" rx="9" fill="#fffefa" stroke="#dad7cf"/>
         <text x="14" y="20" fill="#696969" font-size="11" font-family="Inter, ui-sans-serif, system-ui" letter-spacing="1.2">COMMITS</text>
-        <text x="14" y="40" fill="#111111" font-size="22" font-weight="700" font-family="Inter, ui-sans-serif, system-ui">552</text>
+        <text x="14" y="40" fill="#111111" font-size="22" font-weight="700" font-family="Inter, ui-sans-serif, system-ui">556</text>
       </g><g transform="translate(588 105)">
         <rect width="250" height="48" rx="9" fill="#fffefa" stroke="#dad7cf"/>
         <text x="14" y="20" fill="#696969" font-size="11" font-family="Inter, ui-sans-serif, system-ui" letter-spacing="1.2">COMMIT DAYS</text>
-        <text x="14" y="40" fill="#111111" font-size="22" font-weight="700" font-family="Inter, ui-sans-serif, system-ui">76</text>
+        <text x="14" y="40" fill="#111111" font-size="22" font-weight="700" font-family="Inter, ui-sans-serif, system-ui">74</text>
       </g><g transform="translate(858 105)">
         <rect width="250" height="48" rx="9" fill="#fffefa" stroke="#dad7cf"/>
         <text x="14" y="20" fill="#696969" font-size="11" font-family="Inter, ui-sans-serif, system-ui" letter-spacing="1.2">LONGEST STREAK</text>
@@ -31,11 +31,11 @@
       </g><g transform="translate(183 171)">
         <rect width="250" height="48" rx="9" fill="#fffefa" stroke="#dad7cf"/>
         <text x="14" y="20" fill="#696969" font-size="11" font-family="Inter, ui-sans-serif, system-ui" letter-spacing="1.2">SAMPLED</text>
-        <text x="14" y="40" fill="#111111" font-size="22" font-weight="700" font-family="Inter, ui-sans-serif, system-ui">559</text>
+        <text x="14" y="40" fill="#111111" font-size="22" font-weight="700" font-family="Inter, ui-sans-serif, system-ui">555</text>
       </g><g transform="translate(453 171)">
         <rect width="250" height="48" rx="9" fill="#fffefa" stroke="#dad7cf"/>
         <text x="14" y="20" fill="#696969" font-size="11" font-family="Inter, ui-sans-serif, system-ui" letter-spacing="1.2">PRS/ISSUES</text>
-        <text x="14" y="40" fill="#111111" font-size="22" font-weight="700" font-family="Inter, ui-sans-serif, system-ui">58</text>
+        <text x="14" y="40" fill="#111111" font-size="22" font-weight="700" font-family="Inter, ui-sans-serif, system-ui">60</text>
       </g><g transform="translate(723 171)">
         <rect width="250" height="48" rx="9" fill="#fffefa" stroke="#dad7cf"/>
         <text x="14" y="20" fill="#696969" font-size="11" font-family="Inter, ui-sans-serif, system-ui" letter-spacing="1.2">REVIEWS</text>
