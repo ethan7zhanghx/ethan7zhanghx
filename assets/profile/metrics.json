@@ -1,26 +1,26 @@
 {
   "username": "ethan7zhanghx",
-  "updatedAt": "2026-09-06T20:22:22.554Z",
+  "updatedAt": "2026-09-07T04:36:36.464Z",
   "range": {
-    "from": "2025-09-01",
-    "to": "2026-09-06"
+    "from": "2025-09-02",
+    "to": "2026-09-07"
   },
-  "totalContributions": 970,
+  "totalContributions": 973,
   "totalCommitContributions": 559,
   "totalIssueContributions": 6,
-  "totalPullRequestContributions": 72,
+  "totalPullRequestContributions": 74,
   "totalPullRequestReviewContributions": 55,
   "restrictedContributionsCount": 258,
   "commitActiveDays": 76,
   "currentStreak": 0,
   "longestStreak": 12,
-  "accessibleRepositories": 25,
+  "accessibleRepositories": 26,
   "sampledCommits": 557,
   "timeZone": "Asia/Shanghai",
   "languages": [
     {
       "name": "TypeScript",
-      "bytes": 41594219
+      "bytes": 43492714
     },
     {
       "name": "Go",
@@ -28,7 +28,15 @@
     },
     {
       "name": "Python",
-      "bytes": 16510793
+      "bytes": 16564803
+    },
+    {
+      "name": "MDX",
+      "bytes": 6130411
+    },
+    {
+      "name": "Jupyter Notebook",
+      "bytes": 3744581
     },
     {
       "name": "C++",
@@ -36,19 +44,15 @@
     },
     {
       "name": "JavaScript",
-      "bytes": 1109779
+      "bytes": 1439901
     },
     {
       "name": "CSS",
-      "bytes": 695005
+      "bytes": 771181
     },
     {
       "name": "HTML",
       "bytes": 341546
-    },
-    {
-      "name": "Jupyter Notebook",
-      "bytes": 328667
     },
     {
       "name": "Swift",
@@ -56,15 +60,11 @@
     },
     {
       "name": "Shell",
-      "bytes": 170195
+      "bytes": 173467
     },
     {
       "name": "C",
       "bytes": 167097
-    },
-    {
-      "name": "Less",
-      "bytes": 56029
     }
   ]
 }
