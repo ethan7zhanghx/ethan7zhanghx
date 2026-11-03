@@ -1,21 +1,21 @@
 {
   "username": "ethan7zhanghx",
-  "updatedAt": "2026-11-02T15:43:39.270Z",
+  "updatedAt": "2026-11-03T00:55:38.275Z",
   "range": {
-    "from": "2025-10-28",
-    "to": "2026-11-02"
+    "from": "2025-10-29",
+    "to": "2026-11-03"
   },
-  "totalContributions": 851,
-  "totalCommitContributions": 445,
+  "totalContributions": 785,
+  "totalCommitContributions": 379,
   "totalIssueContributions": 4,
   "totalPullRequestContributions": 74,
   "totalPullRequestReviewContributions": 55,
   "restrictedContributionsCount": 254,
-  "commitActiveDays": 65,
+  "commitActiveDays": 64,
   "currentStreak": 0,
   "longestStreak": 12,
   "accessibleRepositories": 27,
-  "sampledCommits": 457,
+  "sampledCommits": 439,
   "timeZone": "Asia/Shanghai",
   "languages": [
     {
